@@ -51,7 +51,6 @@ The Following Changes will be made without any questions.
 ### Optional
 * devise
 * kaminari
-* nokogiri
 * prawn
 * README.md and CHANGELOG.md
 * Git init with initial commit

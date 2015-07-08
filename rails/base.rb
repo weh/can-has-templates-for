@@ -1,7 +1,6 @@
 gem 'haml-rails'
 gem 'simple_form'
-gem 'kaminari' if yes?('Kaminari? [no]') 
-gem 'nokogiri' if yes?('Nokogiri? [no]')
+gem 'kaminari' if yes?('Kaminari? [no]')
 gem 'prawn' if yes?('Prawn? [no]') 
 
 fabication = yes?('Fabrication? [no]')
