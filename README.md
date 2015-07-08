@@ -57,11 +57,13 @@ The Following Changes will be made without any questions.
 * Git init with initial commit
 
 #### development
+* create and migrate database
 * capystrano including
   * capistrano-rvm
   * capistrano-bundler
   * capistrano-rails
   * capistrano-maintenance
+  * german maintenance template.
   * removing test folder
 
 #### development and test
