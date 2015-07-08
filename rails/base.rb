@@ -1,4 +1,3 @@
-gem 'mysql2'
 gem 'haml-rails'
 gem 'simple_form'
 gem 'kaminari' if yes?('Kaminari? [no]') 
@@ -16,14 +15,6 @@ gem_group :development, :test do
     gem 'faker' if yes?('Faker? [no]') 
   end
 end
-
-puts '--> removing sqlite stuff'
-gsub_file 'Gemfile', "gem 'sqlite3'\n", ''
-template "config/databases/mysql.yml", "config/database.yml"
-
-puts '--> copy config files as template'
-copy_file 'config/database.yml', 'config/database.yml.template'
-copy_file 'config/secrets.yml', 'config/secrets.yml.template'
 
 after_bundle do
   puts '--> stopping spring https://github.com/rspec/rspec-rails/issues/996'

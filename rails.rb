@@ -9,6 +9,8 @@ INFO
 
 unless no?('Ready? [yes]')
 
+  apply "#{BASE_PATH}/rails/database.rb" unless no?('Setup MySQL Database? [yes]')
+
   unless no?('Base Stuff (haml, simple form. rspec, capybara)? [yes]')
     apply "#{BASE_PATH}/rails/base.rb"
     apply "#{BASE_PATH}/rails/gitignore.rb"
@@ -24,4 +26,8 @@ unless no?('Ready? [yes]')
 
   apply "#{BASE_PATH}/rails/doc.rb" unless no?('README and CHANGELOG? [yes]')
   apply "#{BASE_PATH}/rails/git.rb"
+
+  after_bundle do
+    rake 'db:migrate' unless no?('Migrate Database [yes]')
+  end
 end
