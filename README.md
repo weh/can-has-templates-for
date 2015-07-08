@@ -4,20 +4,20 @@ This is a Rails Application Template, that can be used when creating a new Rail 
 You can generate a new Rail Application using this template
 
 ```console
-rails new blog -m  https://github.com/weh/can-has-templates-for/rails.rb
+rails new blog -m  https://raw.githubusercontent.com/weh/can-has-templates-for/master/rails.rb
 ```
 
 to apply the Template on an existing Application you can use the Rake Task
 
 ```console
-bin/rake rails:template LOCATION=https://github.com/weh/can-has-templates-for/rails.rb
+bin/rake rails:template LOCATION=https://raw.githubusercontent.com/weh/can-has-templates-for/master/rails.rb
 ```
 
 Using the Rake Task, you can also choose a partial template to be applied.
 E.g. if you only need to add the Devise part:
 
 ```console
-bin/rake rails:template LOCATION=https://github.com/weh/can-has-templates-for/rails/devise.rb
+bin/rake rails:template LOCATION=https://raw.githubusercontent.com/weh/can-has-templates-for/master/rails/devise.rb
 ```
 
 Check [The Rails Guides](http://guides.rubyonrails.org/rails_application_templates.html) for more Information about Rails App Templates.
