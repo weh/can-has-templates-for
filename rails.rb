@@ -1,4 +1,4 @@
-BASE_PATH = 'https://raw.githubusercontent.com/weh/can-has-templates-for/master/'
+BASE_PATH = 'https://raw.githubusercontent.com/weh/can-has-templates-for/master'
 
 puts <<INFO
 
