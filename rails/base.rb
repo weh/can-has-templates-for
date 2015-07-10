@@ -43,6 +43,6 @@ after_bundle do
 
     if fabication
       empty_directory_with_keep_file 'fabricators'
-    end 
+    end
   end
 end

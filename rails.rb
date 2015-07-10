@@ -13,6 +13,7 @@ unless no?('Ready? [yes]')
 
   unless no?('Base Stuff (haml, simple form. rspec, capybara)? [yes]')
     apply "#{BASE_PATH}/rails/base.rb"
+    apply "#{BASE_PATH}/rails/assets.rb"
     apply "#{BASE_PATH}/rails/gitignore.rb"
   end
 
