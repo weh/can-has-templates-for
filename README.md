@@ -1,4 +1,7 @@
 # weh can has templates for rails
+![Weh can has Template?](https://raw.githubusercontent.com/weh/can-has-templates-for/master/4bfhmu.jpg "Weh can has Template?")
+
+
 ## What is this?
 This is a Rails Application Template, that can be used when creating a new Rail Application.
 You can generate a new Rail Application using this template
