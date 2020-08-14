@@ -1,5 +1,4 @@
-# weh can has templates for rails
-![Weh can has Template?](https://raw.githubusercontent.com/weh/can-has-templates-for/master/4bfhmu.jpg "Weh can has Template?")
+![Weh can has Template?](https://raw.githubusercontent.com/weh/can-has-templates-for/master/canhastemplates.jpg "Weh can has Template?")
 
 
 ## What is this?
