@@ -1,7 +1,3 @@
-setup_javascript
-setup_stylesheets
-add_asset_caching_htacces
-
 
 def setup_javascript
   empty_directory_with_keep_file 'app/assets/javascripts/shared'
@@ -44,3 +40,7 @@ ExpiresActive On
 ExpiresDefault "access plus 1 year"
 HTACCESS
 end
+
+setup_javascript
+setup_stylesheets
+add_asset_caching_htacces
